@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    opacity: 0;
+    transition: 1s;
+}
+
+h1{
+    text-align: center;
+}
+
+.show {
+    opacity: 1;
+}    
+
+.deleteAll{
+    background: white;
+    border: 0;
+}
+
+button:hover {
+    color : grey;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form > .text{
+    width: 90%;
+    padding: 5px;
+}
+.form button {
+    background: white;
+    border: 0px;
+    font-size: 1.5pc;
+}
+
+.to-do-list {
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.to-do-list div {
+    font-size: larger;
+    display: flex;
+    border-bottom: solid 1px black;
+    padding: px 30px 5px 5px;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+}
+
+.delete {
+    border-radius: 50px;
+    height: fit-content;
+    width: fit-content;
+    font-size: small;
+    background: white;
+    border: solid 1px black;
+}
+
